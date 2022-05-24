@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+.header-top{
+    border: 2px solid white;
+    max-width: 400px;
+    height: 100px;
+    margin-top: 200px;
+}
+.header__nav{
+    margin-top: 25px;
+    gap: 40px;
+}
+.sogot{
+    list-style: none;
+    padding: 10px;
+    color: white;
+    background: rgb(36, 36, 36);
+    max-width: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.minut{
+    list-style: none;
+    padding: 10px;
+    color: white;
+    background: rgb(36, 36, 36);
+    max-width: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.sekund{
+    list-style: none;
+    padding: 10px;
+    color: white;
+    background: rgb(36, 36, 36);
+    max-width: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.btn{
+    color: white;
+    border: 1px solid white;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 25px;
+}
+.btn:hover{
+    color: black;
+    background: white;
+}
